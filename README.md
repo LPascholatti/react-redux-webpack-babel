@@ -10,5 +10,5 @@
 
 ```npm start```
 
-Note: Your reducers folder do not contain any reducer, therefore your './reducers/index.js' file does not contain any reducers in its combineReducers object.
+Note: Your reducers folder do not contain any reducer, therefore your './reducers/index.js' file does not contain any reducers in its combineReducers object. To fix that, an empty initialReducer was created. Therefore, it's necessary to remove it from the combineReducers as soon as a first reducer is created.
 
